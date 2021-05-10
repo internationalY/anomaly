@@ -1,7 +1,6 @@
-# 基于货车轨迹数据的异常高速公路出入口检测
-**京东城市2020城市计算夏令营课题**  
-demo.ipynb中有运行示例   
-运行前请先配置config.json  
+# 基于面向网络货运平台的异常轨迹检测可视分析研究
+
+ 
 ```
 {
     "roadnetwork_path": "xxx/road_network.txt",
@@ -11,4 +10,3 @@ demo.ipynb中有运行示例
     "combined_traj_withspeed_pkl": "xxx/traj_combined_withspeed.pkl"
 }
 ```
-其中，数据经过京东城市JUST平台预处理 [JUST平台](https://portal-just.urban-computing.cn/)
