@@ -1,0 +1,11 @@
+{
+    "Guangzhou" :{"lon_min":112.961824, "lon_max":114.063506, "lat_min":23.080, "lat_max":23.933664},
+    "DongGuan": {"lon_min":113.492, "lon_max":113.692, "lat_min":23.00, "lat_max":23.079},
+    "JieYang" :{"lon_min":115.612278, "lon_max":116.635029, "lat_min":22.88611, "lat_max":23.773431},
+    "MaoMing" :{"lon_min":110.327359, "lon_max":111.682367, "lat_min":21.420273, "lat_max":22.704842},
+    "YuLing" :{"lon_min":109.718394, "lon_max":110.899461, "lat_min":21.627152, "lat_max":22.62102},
+    "NanNing" :{"lon_min":107.328222, "lon_max":109.619217, "lat_min":22.202506, "lat_max":24.031229},
+    "XiaMen" :{"lon_min":117.884858, "lon_max":118.413825, "lat_min":24.421349, "lat_max":24.906014},
+    "FuZhou" :{"lon_min":118.383431, "lon_max":120.511662, "lat_min":25.272319, "lat_max":26.639273},
+    "QuanZhou": {"lon_min":118.413, "lon_max":118.613, "lat_min":24.729, "lat_max":24.929}
+   }

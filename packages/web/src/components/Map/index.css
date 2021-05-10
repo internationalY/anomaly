@@ -1,0 +1,63 @@
+.map-view {
+  position: relative;
+  display: grid;
+  padding-top: 30px;
+  grid-template-rows: 1fr 30px;
+  grid-template-columns: 740px 1fr;
+  box-shadow: 0 0px 5px #ccc;
+  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
+}
+.time-selection {
+  grid-column: 1 / 3;
+}
+.map-wrapper {
+  position: relative;
+  height: calc(100%);
+  box-sizing: border-box;
+}
+#map-container {
+  height: 100%;
+  overflow: hidden;
+  border-radius: 3px;
+  position: relative;
+  z-index: 50;
+}
+
+#map-container .amap-logo,
+#map-container .amap-copyright {
+  opacity: 0;
+}
+#dummy-map {
+  position: absolute;
+  opacity: 0;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.canvas-map {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+.brush-container {
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+}
+.brush-container svg {
+  width: 100%;
+  height: 100%;
+}
+.brush-container svg rect.selection {
+  stroke-dasharray: 5;
+  stroke: #000;
+}

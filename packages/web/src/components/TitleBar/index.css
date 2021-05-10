@@ -1,0 +1,27 @@
+.title-bar {
+  box-sizing: border-box;
+  width: 100%;
+  position: absolute;
+  height: 30px;
+  line-height: 30px;
+  display: flex;
+  padding: 0 10px;
+  background-color: #f1f1f1;
+  z-index: 100;
+  border-top: 2px solid saddlebrown;
+  border-bottom: 1px solid #ccc;
+}
+.title-bar span:first-child {
+  line-height: 30px;
+  font-size: 14px;
+}
+.title-bar i {
+  vertical-align: -0.1em;
+  margin: 0 5px;
+}
+.title-bar i.active {
+  color: red;
+}
+.fill-spacing {
+  flex: 1;
+}

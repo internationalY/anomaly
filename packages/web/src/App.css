@@ -1,0 +1,34 @@
+@import '~antd/dist/antd.css';
+@import '~react-perfect-scrollbar/dist/css/styles.css';
+.App {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 530px 400px;
+  gap: 10px;
+  height: 100%;
+  background-color: rgb(251, 251, 251);
+}
+
+.App .top {
+  display: grid;
+  grid-template-rows: minmax(1fr, 1fr);
+  grid-template-columns: 250px 1100px 1fr;
+  gap: 10px;
+}
+
+.App .bottom {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 500px;
+  gap: 10px;
+}
+
+.App .top > div,
+.App .bottom > div {
+  box-sizing: border-box;
+  box-shadow: 0 0 5px #ccc;
+}
+
+.fill-spacing {
+  flex: 1;
+}

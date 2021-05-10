@@ -1,0 +1,38 @@
+.text-bubble {
+  position: relative;
+  overflow: scroll;
+  background-color: #f1f1f1;
+}
+.text-bubble .canvas-container {
+  box-sizing: border-box;
+  padding-top: 30px;
+  height: 100%;
+}
+.text-bubble .text-container {
+  box-sizing: border-box;
+  padding: 35px 5px;
+  height: 100%;
+}
+.text-bubble .text-container .panel-title {
+  display: block;
+}
+.text-bubble .text-container .panel-title .date {
+  display: inline-block;
+  width: 120px;
+  margin-right: 20px;
+}
+.text-bubble .text-container .panel-title .rate {
+  display: inline-block;
+  width: 120px;
+  margin-right: 20px;
+}
+.text-bubble .text-container .panel-title .abstract {
+  display: inline-block;
+  width: 150px;
+}
+.text-bubble .text-container .panel-title .abstract .ant-typography {
+  margin-bottom: 0 !important;
+}
+.highlight {
+  background-color: yellow;
+}

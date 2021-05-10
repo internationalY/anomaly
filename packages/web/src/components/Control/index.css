@@ -1,0 +1,71 @@
+.control {
+  position: relative;
+  background-color: #f1f1f1;
+}
+.control-wrapper {
+  box-sizing: border-box;
+  height: 100%;
+  padding-top: 30px;
+}
+.control .control-list {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+}
+.control .control-list .control-item {
+  box-sizing: border-box;
+  height: 60px;
+  border-radius: 3px;
+  background-color: #fff;
+  padding: 5px 10px 0;
+  box-shadow: 0 0 5px #ccc;
+  margin: 20px 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  cursor: pointer;
+}
+.control .control-list .control-item .ant-slider {
+  margin: 5px 5px;
+}
+.control .control-list .control-item.select {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  padding: 0 10px;
+  position: relative;
+}
+
+.control .select {
+  height: 40px;
+}
+
+.caret {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+
+.caret::after {
+  display: inline-block;
+  vertical-align: middle;
+  content: '';
+  width: 0;
+  height: 0;
+  border-width: 8px;
+  border-style: solid;
+  border-color: #000 transparent transparent transparent;
+}
+
+.control .control-list .control-item .ant-slider-rail {
+  background-color: rgb(132, 154, 164);
+}
+.control .control-list .control-item .ant-slider-dot {
+  border-color: rgb(132, 154, 164);
+}
+.control .control-list .control-item .ant-slider-dot-active {
+  border-color: #91d5ff;
+}

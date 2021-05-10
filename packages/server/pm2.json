@@ -1,0 +1,10 @@
+{
+  "apps": {
+    "name": "backend",
+    "script": "./bin/www",
+    "cwd": "./",
+    "watch": true,
+    "ignore_watch": ["node_modules", "logs"],
+    "restart_delay": 30
+  }
+}

@@ -1,0 +1,18 @@
+.relation {
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+.relation .relation-wrapper {
+  height: 100%;
+}
+.relation .loading-mask {
+  position: absolute;
+  top: 30px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

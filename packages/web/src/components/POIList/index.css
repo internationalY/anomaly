@@ -1,0 +1,16 @@
+.poi-list {
+  position: relative;
+  z-index: 10;
+}
+.poi-list .poi-canvas {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 100;
+}
+.poi-list #dummy-map {
+  height: 100%;
+  opacity: 0;
+}

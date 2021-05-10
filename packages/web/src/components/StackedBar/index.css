@@ -1,0 +1,6 @@
+.stacked-bar {
+  position: relative;
+}
+.stacked-bar .container {
+  height: 100%;
+}
